@@ -1,1 +1,72 @@
+/* Style for the body */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	/* Interesting gradient background */
+	background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+	color: #222;
+}
+/* Site header styles */
+.site-header {
+	text-align: center;
+	padding: 40px 0 10px 0;
+}
+
+.site-header h1 {
+	font-size: 2.8em;
+	margin: 0;
+	color: #2d5c88;
+	letter-spacing: 2px;
+}
+
+.subtitle {
+	font-size: 1.3em;
+	color: #4a90e2;
+	margin-top: 8px;
+	letter-spacing: 1px;
+}
+
+/* Section spacing */
+section {
+	background: #fff;
+	margin: 24px auto;
+	padding: 24px;
+	max-width: 600px;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Profile picture container centers the image */
+.profile-pic-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16px;
+}
+
+/* Make the profile image a circle */
+.profile-pic {
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid #4a90e2;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h1, h2 {
+	color: #4a90e2;
+	text-align: center;
+}
+
+/* Center contact email */
+#contact p {
+	text-align: center;
+}
+
+/* Simple list style */
+ul {
+	padding-left: 20px;
+}
 /* Add you CSS here */
